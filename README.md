@@ -24,7 +24,7 @@ php facedeation project.
 
 
 <b><h3>Example for face detection </h3></b>  
-
+'''
 <?php  
 
 
@@ -39,3 +39,4 @@ $detector->faceDetect($img);
 $detector->toFace();   
 
 ?>  
+'''
