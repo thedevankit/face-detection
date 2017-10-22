@@ -12,9 +12,13 @@ php facedeation project.
 
 <b><h3>Supported Methods</h3></b>  
 1)toFace()
+
 2)toJpge()
+
 3)faceDetect('img name or path');
+
 4)cropFaceToJpeg()// crop the image 
+
 
 
 
@@ -23,9 +27,15 @@ php facedeation project.
 
 <?php  
 
+
 include "FaceDetector.php";
+
 $img=$_POST['img']; //image name  
+
 $detector = new svay\FaceDetector('detection.dat');
+
 $detector->faceDetect($img);
+
 $detector->toFace();   
+
 ?>  
